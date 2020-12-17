@@ -20,8 +20,6 @@ opencv-python==4.4.0.42
 Pillow==3.1.2
 PyJWT==1.7.1
 pyparsing==2.0.3
-python-debian==0.1.27
-python-systemd==231
 python3-openid==3.2.0
 pytz==2020.4
 pyxdg==0.25
