@@ -32,7 +32,6 @@ six==1.15.0
 sqlparse==0.4.1
 tokenize-rt==3.2.0
 urllib3==1.13.1
-usb-creator==0.3.0
 virtualenv==20.2.1
 whitenoise==5.2.0
 zipp==3.4.0
