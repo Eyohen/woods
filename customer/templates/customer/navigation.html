@@ -1,0 +1,52 @@
+<header class="l-header" id="header">
+	<nav class="nav bd-container">
+		<a href="#" class="nav__logo">Woods</a>
+
+		<div class="nav__menu" id="nav-menu">
+			<ul class="nav__list">
+					<li class="nav__item"><a href="{%url 'index'%}" class="nav__link">Home</a></li>
+					<li class="nav__item"><a href="{%url 'about' %}" class="nav__link">About</a></li>
+					<li class="nav__item"><a href="{% url 'menu' %}" class="nav__link">Menu</a></li>
+					<li class="nav__item"><a href="{% url 'order' %}" class="nav__link">Order</a></li>
+					<li class="nav__item"><a href="{% url 'login' %}" class="nav__link">Login</a></li>
+					<li class="nav__item"><a href="{% url 'signup' %}" class="nav__link">SignUp</a></li>
+			</ul>
+			</div>
+
+		<div class="nav__toggle" id="nav-toggle">
+			<i class='bx bx-menu'></i>		
+</div>
+		</nav>
+<!--dfghjk
+<nav class="navbar navbar-expand-lg navbar-dark black">
+  <a class="navbar-brand" href="{%url 'index'%}">Food Menu</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="{%url 'about' %}">About Us</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'menu' %}">Menu</a>
+      </li>
+    </ul>
+		<ul class="navbar-nav">
+		<li class="nav-item">
+        <a class="nav-link" href="{% url 'order' %}">Place an Order</a>
+      </li>
+		</ul>
+		<ul class="navbar-nav">
+		<li class="nav-item">
+        <a class="nav-link" href="{% url 'login' %}">Login</a>
+      </li>
+		</ul>
+	<ul class="navbar-nav">
+		<li class="nav-item">
+        <a class="nav-link" href="{% url 'signup' %}">Sign Up</a>
+      </li>
+		</ul>
+  </div>
+</nav>---->
+</header>
